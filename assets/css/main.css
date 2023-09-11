@@ -1468,13 +1468,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features Section
+# portfolio
 --------------------------------------------------------------*/
-.features .nav-tabs {
+.portfolio .nav-tabs {
   border: 0;
 }
 
-.features .nav-link {
+.portfolio .nav-link {
   border: 0;
   padding: 25px 20px;
   color: var(--color-secondary);
@@ -1489,66 +1489,66 @@ section {
   height: 100%;
 }
 
-.features .nav-link i {
+.portfolio .nav-link i {
   font-size: 32px;
   line-height: 0;
 }
 
-.features .nav-link h4 {
+.portfolio .nav-link h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
   color: var(--color-secondary);
 }
 
-.features .nav-link:hover {
+.portfolio .nav-link:hover {
   color: var(--color-primary);
 }
 
-.features .nav-link.active {
+.portfolio .nav-link.active {
   transition: 0.3s;
-  background: var(--color-secondary) linear-gradient(rgba(var(--color-primary-rgb), 0.95), rgba(var(--color-primary-rgb), 0.6));
+  background: #0EA2BD;
   border-color: var(--color-primary);
 }
 
-.features .nav-link.active h4 {
+.portfolio .nav-link.active h4 {
   color: var(--color-white);
 }
 
-.features .nav-link.active i {
+.portfolio .nav-link.active i {
   color: var(--color-white) !important;
 }
 
-.features .tab-content {
+.portfolio .tab-content {
   margin-top: 30px;
 }
 
-.features .tab-pane.active {
+.portfolio .tab-pane.active {
   animation: fadeIn 0.5s ease-out;
 }
 
-.features .tab-pane h3 {
+.portfolio .tab-pane h3 {
   font-weight: 600;
   font-size: 36px;
   color: var(--color-secondary);
 }
 
-.features .tab-pane ul {
+.portfolio .tab-pane ul {
   list-style: none;
   padding: 0;
 }
 
-.features .tab-pane ul li {
+.portfolio .tab-pane ul li {
   padding-bottom: 10px;
 }
 
-.features .tab-pane ul i {
+.portfolio .tab-pane ul i {
   font-size: 24px;
   margin-right: 4px;
   color: var(--color-primary);
 }
 
-.features .tab-pane p:last-child {
+.portfolio .tab-pane p:last-child {
   margin-bottom: 0;
 }
 
@@ -1949,6 +1949,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+
+.portfolio--custom{
+  background-color: #EBEBEB;
+}
+
 .portfolio .portfolio-flters {
   padding: 0;
   margin: 0 auto 30px auto;
