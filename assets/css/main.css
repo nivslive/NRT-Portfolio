@@ -1207,6 +1207,7 @@ section {
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
+  width: 56px;
 }
 
 .clients .swiper-slide img:hover {
