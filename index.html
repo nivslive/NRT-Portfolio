@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/NRTsoftware-logo-quadrado-hollow-colorido.svg" rel="icon">
-  <link href="assets/img/NRTsoftware-FavIcon.svg" rel="apple-touch-icon">
+  <link href="assets/img/NRTsoftware-apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,14 +36,19 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    .img-mobile-example-modal {
+      border-radius: 26px;
+      max-width: 500px;
+    }
+    @media screen and (max-width: 998px) {
+      .img-mobile-example-modal {
+        width: 100%;
+      }
+    }
+  </style>
 
-  <!-- =======================================================
-  * Template Name: HeroBiz
-  * Updated: Jul 27 2023 with Bootstrap v5.3.1
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -53,71 +58,17 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <!-- <h1><strong>NRTsoftware</strong></h1> -->
         <img src="assets/img/NRTsoftware-logo-vertical-preenchido-colorido.svg" class="img-fluid animated NRTlogo">
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-<!-- 
-          <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="index.html" class="active">Home 1 - index.html</a></li>
-              <li><a href="index-2.html">Home 2 - index-2.html</a></li>
-              <li><a href="index-3.html">Home 3 - index-3.html</a></li>
-              <li><a href="index-4.html">Home 4 - index-4.html</a></li>
-            </ul>
-          </li> -->
+
           <li><a class="nav-link scrollto" href="index.html#especialidades">Nossas especialidades</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">Sobre nós</a></li>
           <li><a class="nav-link scrollto" href="index.html#ourcontact">Entre em Contato</a></li>
           <li><a class="nav-link scrollto" href="index.html#nossoportfolio">Nosso Portfolio</a></li>
-          <!-- <li><a class="nav-link scrollto" href="index.html#team">Team</a></li> -->
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <!-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li>
-                <a href="#">Column 1 link 1</a>
-                <a href="#">Column 1 link 2</a>
-                <a href="#">Column 1 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 2 link 1</a>
-                <a href="#">Column 2 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 3 link 1</a>
-                <a href="#">Column 3 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 4 link 1</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
-              </li>
-            </ul>
-          </li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li> -->
+  
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav>
@@ -186,14 +137,13 @@
 
       <div class="clients-slider swiper">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><img src="https://camo.githubusercontent.com/900baefb89e187c8b32cdbb3b440d1502fe8f30a1a335cc5dc5868af0142f8b1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/css.svg" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/html.svg" class="img-fluid" alt=""></div>
-          <!-- <div class="swiper-slide"><img src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/MySQL.svg" class="img-fluid" alt=""></div> -->
-          <div class="swiper-slide"><img src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/Electron.svg" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/python.svg" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="https://camo.githubusercontent.com/b2591979f4b70fe3814b45154b6b93af0b9e7c52cedb8ce99948b3ed6d03a650/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f642f64352f527573745f70726f6772616d6d696e675f6c616e67756167655f626c61636b5f6c6f676f2e737667" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/PHP%20elefante.svg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://camo.githubusercontent.com/900baefb89e187c8b32cdbb3b440d1502fe8f30a1a335cc5dc5868af0142f8b1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/css.svg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/html.svg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/Electron.svg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/python.svg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://camo.githubusercontent.com/b2591979f4b70fe3814b45154b6b93af0b9e7c52cedb8ce99948b3ed6d03a650/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f642f64352f527573745f70726f6772616d6d696e675f6c616e67756167655f626c61636b5f6c6f676f2e737667" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img loading="lazy" src="https://raw.githubusercontent.com/Raulbarossi/RaulBarossi/main/src/PHP%20elefante.svg" class="img-fluid" alt=""></div>
         </div>
       </div>
 
@@ -214,7 +164,7 @@
 
           <div class="col-lg-5">
             <div class="about-img">
-              <img src="assets/img/about.png" class="img-fluid rounded" alt="">
+              <img loading="lazy" src="assets/img/about.png" class="img-fluid rounded" alt="">
             </div>
           </div>
 
@@ -241,7 +191,12 @@
                   <i class="bi bi-dot"></i>
                   <h4>Nivan Junior</h4>
                 </div>
-                <p>Desenvolvedor fullstack com foco em PHP e Javascript há mais de 5 anos.</p>
+                <p>
+
+                  Desenvolvedor há 5 anos com foco na WEB e Mobile, usando PHP, Javascript, Flutter, etc.
+                  Já trabalhou em projetos privados como Nestlé, Shell, Vivara, Coca Cola, Seara, etc.
+
+                </p>
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-dot"></i>
@@ -317,7 +272,7 @@
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+              <img loading="lazy" src="assets/img/cta.jpg" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -326,81 +281,53 @@
       </div>
     </section><!-- End Call To Action Section -->
 
-    <!-- ======= On Focus Section ======= -->
-    <!-- <section id="onfocus" class="onfocus">
-      <div class="container-fluid p-0" data-aos="fade-up">
-
-        <div class="row g-0">
-          <div class="col-lg-6 video-play position-relative">
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-          </div>
-          <div class="col-lg-6">
-            <div class="content d-flex flex-column justify-content-center h-100">
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul>
-              <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>End On Focus Section -->
-    
-    <!-- ======= Portifílio ======= -->
+    <!-- ======= Portfolio ======= -->
     <section id="nossoportfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Nosso portifólio</h2>
+          <h2>Nosso portfólio</h2>
         </div>
         <ul class="nav nav-tabs row gy-4 d-flex justify-content-center">
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link active show rounded-pill portfolio--custom "
              data-bs-toggle="tab" data-bs-target="#tab-1">
-             <i class="bi bi-window-desktop icon color-cyan"></i>
+             <i class="bi bi-window-desktop color-black"></i>
              <h4 class="text-center">SalesPro</h4>
             </a>
           </li><!-- End Tab 1 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-2">
-              <i class="bi bi-window-desktop color-indigo"></i>
+              <i class="bi bi-window-desktop color-black"></i>
               <h4 class="text-center">YoouGroup</h4>
             </a>
           </li><!-- End Tab 2 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-3">
-              <i class="bi bi-window-desktop color-teal"></i>
-              <h4 class="text-center">Maria Coelho</h4>
+              <i class="bi bi-window-desktop color-black"></i>
+              <h4 class="text-center">Mari Coelho</h4>
             </a>
           </li><!-- End Tab 3 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-4">
-              <i class="bi bi-window-desktop color-red"></i>
+              <i class="bi bi-window-desktop color-black"></i>
               <h4 class="text-center">Artani</h4>
             </a>
           </li><!-- End Tab 4 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-5">
-              <i class="bi bi-window-desktop color-blue"></i>
+              <i class="bi bi-window-desktop color-black"></i>
               <h4 class="text-center">Fruto e Fruta</h4>
             </a>
           </li><!-- End Tab 5 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-6">
-              <i class="bi bi-window-desktop color-orange"></i>
+              <i class="bi bi-window-desktop color-black"></i>
               <h4 class="text-center">DRD2</h4>
             </a>
           </li><!-- End Tab 6 Nav -->
@@ -408,19 +335,54 @@
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-7">
-              <i class="bi bi-window-desktop color-orange"></i>
+              <i class="bi bi-window-desktop color-black"></i>
               <h4 class="text-center">Inbotix</h4>
             </a>
           </li><!-- End Tab 6 Nav -->
+
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#tab-8">
+              <i class="bi bi-window-desktop color-black"></i>
+              <h4 class="text-center">Warme</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+
+
+          <!-- NICE NATIVE EXAMPLES-->
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#mobile-1">
+              <i class="bi bi-phone color-black"></i>
+              <h4 class="text-center">Chat</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#mobile-2">
+              <i class="bi bi-phone color-black"></i>
+              <h4 class="text-center">Asks</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link rounded-pill portfolio--custom" data-bs-toggle="tab" data-bs-target="#mobile-3">
+              <i class="bi bi-phone color-black"></i>
+              <h4 class="text-center">Commerce</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
         </ul>
 
         <div class="tab-content">
 
           <div class="tab-pane active show" id="tab-1">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">SalesPro Academy </h3>  <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://nivslive.github.io/site_salespro/" target="_blank">Live Preview 
                   <i class="bi bi-box-arrow-up-right color-orange ps-2"></i>
                 </a>
@@ -430,16 +392,16 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://nivslive.github.io/site_salespro/" name="iframe_a"></iframe>
           </div>
          
          
           <div class="tab-pane" id="tab-2">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">YoouGroup </h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://nivslive.github.io/YoouGroup/" target="_blank">Live Preview 
                   <i class="bi bi-box-arrow-up-right color-orange ps-2"></i>
                 </a>
@@ -449,16 +411,16 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://nivslive.github.io/YoouGroup/" name="iframe_a"></iframe>
           </div>
 
 
           <div class="tab-pane" id="tab-3">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">Mari Coelho</h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://nivslive.github.io/site_maricoelho/" target="_blank">Live Preview 
                   <i class="bi bi-box-arrow-up-right color-orange ps-2"></i>
                 </a>
@@ -468,7 +430,7 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://nivslive.github.io/site_maricoelho/" name="iframe_a"></iframe>
 
 
@@ -476,9 +438,9 @@
 
           <div class="tab-pane" id="tab-4">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">Artani </h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://artanisolutions.000webhostapp.com/artani-preview/" target="_blank">Live Preview 
                   <i class="bi bi-box-arrow-up-right color-orange ps-2"></i>
                 </a>
@@ -488,7 +450,7 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://artanisolutions.000webhostapp.com/artani-preview/" name="iframe_a"></iframe>
           </div>
 
@@ -497,9 +459,9 @@
 
           <div class="tab-pane" id="tab-5">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3>SalesPro Academy</h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://raulbarossi.github.io/PHP_FrutaEFruto/" target="_blank">Live Preview 
                   <i class="bi bi-box-arrow-up-right color-orange ps-2"></i>
                 </a>
@@ -509,7 +471,7 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://raulbarossi.github.io/PHP_FrutaEFruto/" name="iframe_a"></iframe>
           </div>
 
@@ -517,9 +479,9 @@
 
           <div class="tab-pane" id="tab-6">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">DRD2 </h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://drd2.com.br/" target="_blank">Live Preview 
                   <i class="bi bi-box-arrow-up-right color-orange ps-2"></i>
                 </a>
@@ -529,7 +491,7 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://drd2.com.br/" name="iframe_a"></iframe>
           </div>
 
@@ -538,9 +500,9 @@
           
           <div class="tab-pane" id="tab-7">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">INBOTIX </h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://raulbarossi.github.io/DESAFIO-INBOTIX/">Live Preview 
                   <i class="bi bi-window-desktop color-orange ps-2"></i>
                 </a>
@@ -550,18 +512,18 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://raulbarossi.github.io/DESAFIO-INBOTIX/" name="iframe_a"></iframe>
-          </div><!-- End Tab Content 1 -->
+          </div>
 
 
 
           
           <div class="tab-pane" id="tab-7">
             <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="pe-2">INBOTIX </h3>            <h1 class="fw-bold">(PREVIEW):</h1>
-                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white" 
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
                     href="https://nivslive.github.io/DESAFIO-INBOTIX/">Live Preview 
                   <i class="bi bi-window-desktop color-orange ps-2"></i>
                 </a>
@@ -571,13 +533,177 @@
               </div>
             </div>
 
-            <iframe data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
             src="https://nivslive.github.io/DESAFIO-INBOTIX/" name="iframe_a"></iframe>
-          </div><!-- End Tab Content 1 -->
+          </div>
+          
+
+                    
+          <div class="tab-pane" id="tab-8">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="pe-2">Warme</h3>            <h1 class="fw-bold">(PREVIEW):</h1>
+                <a class="rounded bg-dark align-self-center p-3 ms-auto text-white m-3" 
+                    href="https://warme.com.br">Live Preview 
+                  <i class="bi bi-window-desktop color-orange ps-2"></i>
+                </a>
+              </div>
+
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              </div>
+            </div>
+
+            <iframe loading= “lazy” data-aos="fade-up" data-aos-delay="150" class="rounded" style="width: 100%; height: 85vh; border: 9px solid gray" 
+            src="https://warme.com.br" name="iframe_a"></iframe>
+          </div>
+
+
+
+
+          <div class="tab-pane" id="mobile-1">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="pe-2">Chat</h3>            <h1 class="fw-bold">(PREVIEW):</h1>
+              </div>
+
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              </div>
+            </div>
+          
+
+        <!-- CAROUSEL MOBILE -->
+          <div class="container" data-aos="fade-up">
+
+            <div class="testimonials-slider swiper">
+              <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_chat4.png">
+                  </div>
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_chat3.png">
+                  </div>
+                </div>
+
+
+
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+            </div>
+                    
+
+
+          </div>
+
+          <div class="tab-pane" id="mobile-2">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="pe-2">Social Media (asks) </h3>            <h1 class="fw-bold">(PREVIEW):</h1>
+              </div>
+
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              </div>
+            </div>
+          
+
+        <!-- CAROUSEL MOBILE -->
+          <div class="container" data-aos="fade-up">
+
+            <div class="testimonials-slider swiper">
+              <div class="swiper-wrapper">
+
+
+
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_chat.png">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_chat2.png">
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+            </div>
+                    
+
+
+          </div>
+
+
+
+          <div class="tab-pane" id="mobile-3">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1 d-flex w-100 aos-init aos-animate flex-md-row flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="pe-2">Commerce</h3>            <h1 class="fw-bold">(PREVIEW):</h1>
+              </div>
+
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              </div>
+            </div>
+          
+
+        <!-- CAROUSEL MOBILE -->
+          <div class="container" data-aos="fade-up">
+
+            <div class="testimonials-slider swiper">
+              <div class="swiper-wrapper">
+
+
+
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_commerce.png">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_commerce2.png">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img style="border-radius: 26px;" class="img-mobile-example-modal" loading= “lazy” src="assets/img/mobile/picmobile_commerce3.png">
+                  </div>
+                </div>
+
+
+
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+            </div>
 
         </div>
 
 
+        </div>
+
+
+        
         
         
       </div>
@@ -647,11 +773,7 @@
             &copy; Copyright <strong><span>NRT Software</span></strong>. All Rights Reserved (2023)
           </div>
           <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="">NRTsoftware</a>
+              Designed by <a href="">NRTsoftware</a>
           </div>
         </div>
 

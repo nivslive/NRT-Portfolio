@@ -280,7 +280,11 @@ document.addEventListener('DOMContentLoaded', () => {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
-    }
+    },
+    navigation: {
+      nextEl: '.swiper-button-next', // Classe da seta de próxima
+      prevEl: '.swiper-button-prev', // Classe da seta anterior
+    },
   });
 
   /**
